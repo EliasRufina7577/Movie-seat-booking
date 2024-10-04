@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.seats-container {
+    margin: 20px;
+    display: inline-block;
+}
+
+.seat-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.seat {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.seat.booked {
+    background-color: tomato;
+    cursor: not-allowed;
+}
+
+.seat.selected {
+    background-color: yellow;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
